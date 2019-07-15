@@ -80,11 +80,13 @@ table#t02 th {
 } 
 
 table, th, td {
+  cursor: url(darkText.cur), auto;
   border: 1px solid white;
-  /*border-collapse: collapse;*/
+  border-collapse: collapse;
   border-spacing: 15px;
   color: white;
   font-family: DFKai-sb;
+  font-size: 20px;
 }
 #mouse{
     width:300px;
