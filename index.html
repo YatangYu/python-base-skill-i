@@ -11,21 +11,6 @@
   首先，對於沒學過程式的同學們，我們先簡單介紹一下有關程式的基本知識。
 </pre>
 
-<h2>輸出</h2>
-<pre>  對第一次接觸程式的人來說，最關心的就是它到底有沒有在動，也就是可以跟程式有所互動。
-  在python裡，輸出的第一步可以請大家在程式裡打上code:
-  
-  <b>print("balabala")</b>
-  
-  然後執行，你就會在執行視窗中看到output:
-  
-  <b>balabala</b>
-</pre>
-
-<pre>  由這個範例，大家應該可以看的出來，只要打上 <mark>print()</mark> 並把想要印出來的字以 <mark>"想要印出來的字"</mark> 的形式打在括弧中，
-就可以顯示字了。
-</pre>
-
 <h2>Type</h2>
 <pre>  在程式中，每一個東西都有自己的 <mark>Type</mark>(中文可以翻作"型別")，
 比如數字 <mark>1</mark> 就屬於 <mark>Integer</mark>(整數，在大部分程式語言裡會以 <mark>int</mark> 簡寫)。
@@ -38,40 +23,107 @@
   <caption>python常用Type</caption>
   <tr>
     <th>Type</th>
+	<th>全文</th>
 	<th>中文</th>
     <th>範例</th> 
     <th >備註</th>
   </tr>
   <tr>
     <td>int</td>
+	<td>Integer</td>
 	<td>整數</td>
-    <td>50</td>
+    <td><mark>50</mark></td>
     <td>整數</td>
   </tr>
   <tr>
     <td>float</td>
+	<td>Float</td>
 	<td>浮點數</td>
-    <td>5.34</td>
+    <td><mark>5.34</mark></td>
     <td>帶有小數點的數值，有效位數為16位</td>
   </tr>
   <tr>
-    <td>int</td>
-	<td>整數</td>
-    <td>50</td>
-    <td>整數</td>
+    <td>str</td>
+	<td>String</td>
+	<td>字串</td>
+    <td>"<mark>string</mark>"</td>
+    <td>字串就是一串字的意思，須注意打程式時要以 <mark>"</mark> 符號將字串包起來</td>
+  </tr>
+  <tr>
+    <td>bool</td>
+	<td>Boolean</td>
+	<td>布林</td>
+    <td><mark>True</mark> / <mark>False</mark></td>
+    <td>只用來記錄是或否的Type，注意字首需大寫</td>
   </tr>
 </table>
 
+
+<h2>輸出</h2>
+<pre>  對第一次接觸程式的人來說，最關心的就是它到底有沒有在動，也就是可以跟程式有所互動。
+  在python裡，輸出的第一步可以請大家在程式裡打上code:
+  
+  <b>print("balabala")</b>
+  
+  然後執行，你就會在執行視窗中看到output:
+  
+  <b>balabala</b>
+</pre>
+
+<pre>  由這個範例，大家應該可以看的出來，只要打上 <mark>print()</mark> 並把想要打印出來的字串放在括弧中，
+就可以顯示字了!! (注意，記得字串需要以 <mark>"想要印出來的字"</mark> 的形式打出來喔!)
+</pre>
 
 <h2>簡單數學計算</h2>
 <pre>  再來我們介紹簡單的數學計算。
   在python裡，加法和減法所使用的算符就是一般的 <mark>+</mark> & <mark>-</mark>；
 而乘除的部分則使用 <mark>*</mark> & <mark>/</mark> 兩個符號作為算符。
-另外python還可以用 <mark>**</mark> 來做次方的運算。
+另外python還可以用 <mark>**</mark> 來做指數運算。
   以下整理一個表格:
 </pre>
 
-<a href="作業.docx">範例程式</a>
+<table style="width:100%">
+  <caption>常用運算符號</caption>
+  <tr>
+    <th>算符</th>
+	<th>意義</th>
+	<th>範例</th>
+    <th>結果</th> 
+    <th>備註</th>
+  </tr>
+  <tr>
+    <td>+</td>
+	<td>加法</td>
+    <td><b>3+2</b></td>
+    <td><b>5</b></td>
+  </tr>
+  <tr>
+    <td>-</td>
+	<td>減法</td>
+    <td><b>3-2</b></td>
+    <td><b>1</b></td>
+  </tr>
+  <tr>
+    <td>*</td>
+	<td>乘法</td>
+    <td><b>3*2</b></td>
+    <td><b>6</b></td>
+  </tr>
+  <tr>
+    <td>/</td>
+	<td>除法</td>
+    <td><b>3/2</b></td>
+    <td><b>1.5</b></td>
+	<th>在python裡，做除法時會自動把 <mark>int</mark> 轉換成 <mark>float</mark></th>
+  </tr>
+  <tr>
+    <td>**</td>
+	<td>指數運算</td>
+    <td><b>3**2</b></td>
+    <td><b>9</b></td>
+	<th>再算符前面的是底數，算符後面的是指數，指數可接受 <mark>float</mark> type</th>
+  </tr>
+</table>
 
   </body>
 </html>
