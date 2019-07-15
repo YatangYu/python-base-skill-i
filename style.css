@@ -25,6 +25,11 @@ h3 {
   font-family: DFKai-sb;
 }
 
+a {
+  color: lightgreen;
+  font-family: DFKai-sb;
+}
+
 p {
   cursor: url(darkText.cur), auto;
   color: lightgreen;
@@ -41,9 +46,10 @@ b{
   color: aqua
   
 }
-i{
+mark{
   font-family: DFKai-sb;
   color: gold;
+  background-color: black;
   
 }
 
@@ -74,9 +80,11 @@ table#t02 th {
 } 
 
 table, th, td {
-  border: 1px solid black;
+  border: 1px solid white;
   /*border-collapse: collapse;*/
   border-spacing: 15px;
+  color: white;
+  font-family: DFKai-sb;
 }
 #mouse{
     width:300px;
