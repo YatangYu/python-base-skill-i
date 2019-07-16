@@ -7,6 +7,7 @@ html{
 
 body {
   background-color: Black;
+  font-size: 18px;
 }
 h1 {
   cursor: url(darkText.cur), auto;
@@ -34,13 +35,14 @@ p {
   cursor: url(darkText.cur), auto;
   color: lightgreen;
   font-family: DFKai-sb;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 pre {
-	cursor: url(darkText.cur), auto;
+  cursor: url(darkText.cur), auto;
   color: lightgreen;
   font-family: DFKai-sb;
+  font-size: 18px;
 }
 b{
   font-family: DFKai-sb;
@@ -59,22 +61,6 @@ ol {
   font-family: DFKai-sb;
 }
 
-table#t01 {
-  width: 100%;    
-  background-color: #f1f1c1;
-}
-
-table#t02 tr:nth-child(even) {
-  background-color: #eee;
-}
-table#t02 tr:nth-child(odd) {
- background-color: #fff;
-}
-table#t02 th {
-  background-color: black;
-  color: white;
-}
-
 .bar  {
   cursor: pointer;
   cursor: url(01cogie.ani) 2 2, pointer;
@@ -89,17 +75,3 @@ table, th, td {
   font-family: DFKai-sb;
   font-size: 20px;
 }
-#mouse{
-    width:300px;
-    height:300px;
-    border:1px solid black;
-    cursor:url(http://demonstration.abgne.tw/css/0002/wii.ani);
-}
-
-#p01 {
-	color: blue;
-	}
-	
-p.re {
-	color: red;
-	}
