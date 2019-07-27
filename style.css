@@ -1,48 +1,63 @@
-/* {cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat979.gif), auto;}*/
 html{
-	cursor: url(darkPointer.cur), auto !important;
+	cursor: url(Pointer.cur), auto !important;
 }
-
-/* {cursor: url(http://cur.cursors-4u.net/cursors/cur-3/cur205.ani), url(http://cur.cursors-4u.net/cursors/cur-3/cur205.png), auto !important;} /* End http://www.cursors-4u.com */
 
 body {
   background-color: Black;
   font-size: 18px;
+  line-height: 30px;
+  font-family: DFKai-sb;
 }
 h1 {
-  cursor: url(darkText.cur), auto;
+  cursor: url(Text.cur), auto;
   color: White;
-  font-family: DFKai-sb;
 }
 h2 {
-  cursor: url(darkText.cur), auto;
+  cursor: url(Text.cur), auto;
   color: red;
-  font-family: DFKai-sb;
 }
 
 h3 {
-  cursor: url(darkText.cur), auto;
+  cursor: url(Text.cur), auto;
   color: yellow;
-  font-family: DFKai-sb;
 }
 
 a {
-  color: lightgreen;
+  cursor: url(Associate.cur), auto;
   font-family: DFKai-sb;
+}
+
+a:link {
+  color: yellow;
+  text-decoration: none;
+  display: inline-block;
+}
+a:visited {
+  color: Khaki;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover {
+  color: Aquamarine;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: Fuchsia;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 p {
-  cursor: url(darkText.cur), auto;
+  cursor: url(Text.cur), auto;
   color: lightgreen;
   font-family: DFKai-sb;
-  font-size: 18px;
 }
 
 pre {
-  cursor: url(darkText.cur), auto;
+  cursor: url(Text.cur), auto;
   color: lightgreen;
   font-family: DFKai-sb;
-  font-size: 18px;
 }
 b{
   font-family: DFKai-sb;
@@ -58,20 +73,18 @@ mark{
 
 ol {
   color: lightgreen;
-  font-family: DFKai-sb;
+}
+ul {
+  cursor: url(Text.cur), auto;
+  color: lightgreen;
 }
 
-.bar  {
-  cursor: pointer;
-  cursor: url(01cogie.ani) 2 2, pointer;
-} 
 
 table, th, td {
-  cursor: url(darkText.cur), auto;
+  cursor: url(Text.cur), auto;
   border: 1px solid white;
   border-collapse: collapse;
   border-spacing: 15px;
   color: white;
-  font-family: DFKai-sb;
   font-size: 20px;
 }
