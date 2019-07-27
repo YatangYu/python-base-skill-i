@@ -85,7 +85,7 @@
 <pre>  再來我們介紹一些簡單的數學計算。
   在python裡，<mark>加</mark>法和<mark>減</mark>法所使用的算符就是一般的 <mark>+</mark> & <mark>-</mark>；
   而<mark>乘</mark>、<mark>除</mark>的部分則使用 <mark>*</mark> & <mark>/</mark> 兩個符號作為算符。
-  另外python還可以用 <mark>**</mark> 來做<mark>指數</mark>運算。
+  另外%可以計算餘數，python還可以用 <mark>**</mark> 來做<mark>指數</mark>運算。
   以下整理一個表格:
 </pre>
 
@@ -127,11 +127,18 @@
 	<td>在python裡，做除法時會自動把 <mark>int</mark> 轉換成 <mark>float</mark></td>
   </tr>
   <tr>
+    <td>%</td>
+	<td>餘數運算</td>
+    <td><b>3%2</b></td>
+    <td><b>1</b></td>
+	<td>算符前面的是被除數，算符後面的是除數，除數、餘數可以是非整數，但運算結果可能與想像不同(電腦邏輯問題)；建議都做整數運算</td>
+  </tr>
+  <tr>
     <td>**</td>
 	<td>指數運算</td>
     <td><b>3**2</b></td>
     <td><b>9</b></td>
-	<td>再算符前面的是底數，算符後面的是指數，指數可接受 <mark>float</mark> type</td>
+	<td>算符前面的是底數，算符後面的是指數，指數可接受 <mark>float</mark> type</td>
   </tr>
 </table>
 
